@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+body{
+    background-color: black;
+    color: chocolate;
+}
+
+button{
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: darksalmon;
+}
+
+button:hover{
+    background-color: rgb(255, 191, 170);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
